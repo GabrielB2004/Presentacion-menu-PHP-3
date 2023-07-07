@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>registro de usuario</title>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <h1>Inmobiliaria Punta de Mata</h1>
+        <hr>
+        <br>
+        <h2>Ingrese los datos requeridos para crear una cuenta:</h2>
+        <form method="post" action="consul.php">
+            <label for="nombre">Nombre </label>
+            <input type="text" name= "nombre" id="nombre" require>
+            <br>
+            <label for="apellido">Apellido </label>
+            <input type="text" name= "apellido" id="apellido" require>
+            <br>
+            <label for="correo">Correo</label>
+            <input type="email" name= "correo" id="correo" require>
+            <br>
+            <label for="contrasena">Contrasena</label>
+            <input type="password" name="contrasena" id="contrasena" require>
+            <br>
+            <button type="submit">Guardar datos</button>
+            <br>
+            <a href="ingresar.html">Ingrese si ya tiene cuenta</a>
+            <br>
+            <a href="bienvenida.html">Volver al inicio</a>
+            
+    </body>
+</html>
